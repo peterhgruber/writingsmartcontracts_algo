@@ -1,7 +1,7 @@
-# Writing Smart Contracts (WSC)
+# Writing Smart Contracts on Algorand (WSC)
 peter.gruber@usi.ch, 2022-03-09
 
-Writing smart contracts is a hands-on one-semester course on blockchain applications and smart contracts. The course is aimed at students in economics and finance or adjacent fields. All examples are implemented in Python on the Algorand blockchain.
+Writing smart contracts on Algorand is a hands-on one-semester course on blockchain applications and smart contracts. The course is aimed at students in economics and finance or adjacent fields. All examples are implemented in Python on the Algorand blockchain.
 
 ## TLDR (executive summary)
 + Download entire repository
@@ -58,9 +58,10 @@ This folder is avaiable to university teachers upon request to `peter.gruber@usi
 * **TeacherNotes** Additional background information
 * **LaTeXSources** of assignments and slides
 
-
 # Deployment to Students
-Distribute the contents of the entire repository to students.  **Do not change the folder structure.** When you have worked through the repository, remove your `credentials` file from the distribution to students.
+Distribute the contents of the entire repository to students. 
+* **Do not change the folder structure.** 
+* When you have worked through the repository, **remove your `credentials` file before distributing to students.**
 
 Students will have to bring their laptops and smart phones. They will have to install the following software (see also chapter 2 – Tools):
 
@@ -73,7 +74,7 @@ Furthermore, a (free) account for accessing the Purestake API is needed
 * **Purestake** at https://developer.purestake.io/
 
 # Disclaimer
-All examples are **for educational purposes only** and have **not been audited** for security risks. Some examples are explicitly designed to include security flaws so that they can be discussed in class. Do not use any of the code in real-world projects.
+All examples are **for educational purposes only** and have **not been audited** for security risks. Some examples are explicitly designed to include security flaws so that they can be discussed in class. Do not use any of the code in real-world projects. Do not use wallets that contain significant holdings in an educational context.
 
 # License
 * All software code is made available under MIT license (https://choosealicense.com/licenses/mit/)
