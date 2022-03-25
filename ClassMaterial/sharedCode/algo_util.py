@@ -4,9 +4,10 @@
 
 # ========= Utility functions for accounts and credentials ==========
 
-def load_credentials():
+def load_credentials(filename=None):
     import os, json
-    filename = '..'+os.path.sep+'..'+os.path.sep+'credentials'
+    if filename is None:
+        filename = '..'+os.path.sep+'..'+os.path.sep+'credentials'
     with open(filename) as json_file:
         cred = json.load(json_file)
     return(cred)

@@ -3,6 +3,12 @@ peter.gruber@usi.ch, 2022-03-09
 
 Writing smart contracts is a hands-on one-semester course on blockchain applications and smart contracts. The course is aimed at students in economics and finance or adjacent fields. All examples are implemented in Python on the Algorand blockchain.
 
+## TLDR (executive summary)
++ Download entire repository
++ Do not change folder structure
++ Install Anaconda
++ Run Jupyter notebooks in the order of the numbers
+
 ## Philosophy
 The course is designed as an easy entrance into the world of Smart Contracts. This is done by reducing requirements and frictions as much as possible. Concretely, students have to install only one program (the Anaconda environment) on their laptops. Only one programming language, Python, is used for the entire class. Sample code is provided for all relevant concepts in easily readable Jupyter Notebooks.
 
