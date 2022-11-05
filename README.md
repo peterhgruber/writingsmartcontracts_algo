@@ -74,7 +74,7 @@ Furthermore, a (free) account for accessing the Purestake API is needed
 * **Purestake** at https://developer.purestake.io/
 
 # Disclaimer
-All examples are **for educational purposes only** and have **not been audited** for security risks. Some examples are explicitly designed to include security flaws so that they can be discussed in class. Do not use any of the code in real-world projects. Do not use wallets that contain significant holdings in an educational context.
+All code examples are **for educational purposes only** and have **not been audited** for security risks. Some examples are explicitly designed to include security flaws so that they can be discussed in class. Do not use any of the code in real-world projects. Do not use wallets that contain significant holdings in an educational context.
 
 # License
 * All software code is made available under MIT license (https://choosealicense.com/licenses/mit/)

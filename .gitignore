@@ -26,11 +26,12 @@ __pycache__
 *.png
 *.PNG
 *.jpg
-!paris.jpg #Except for paris.jpg
 *.jpeg
 *.JPG
 *.pptx
 *.ppt
+!ClassMaterial/05\ -\ NFTs/05\ code/*.jpg #Except for.jpg in NFT code
+!paris.jpg
 
 ## Core latex/pdflatex auxiliary files:
 *.aux
