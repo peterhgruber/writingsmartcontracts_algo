@@ -11,11 +11,13 @@ pip3 install py-algorand-sdk
 pip3 install pandas
 
 (2) Put this file and credentials_oracle into your home directory
-(3) Put algo_util.py into sharedCode
-(4) Run with ...
+    credentials_oracle has been created in the 09_WSC Jupyter notebooks
+(3) Set the oracle_id in line 42
+(4) Put algo_util.py into the sharedCode subdirectory
+(5) Run with ...
 python3 oracle
 (test if everything is OK)
-(5) Create a cron job to run every 5 minutes (--> this costs 0,288 ALGO per day)
+(6) Create a cron job to run every 5 minutes (--> this costs 0.288 ALGO per day)
 crontab -e
 (choose vi)
 (inside scroll down and paste the following line, changing the path)
@@ -37,6 +39,8 @@ import pandas as pd
 codepath = 'sharedCode'+os.path.sep
 sys.path.append(codepath)
 from algo_util import *
+oracle_id = 77534697    # <------- update
+
 # additional oracle accounts
 cred_oracle = load_credentials('credentials_oracle')
 Price = cred_oracle['Price']
@@ -48,7 +52,6 @@ algod_client = algod.AlgodClient(algod_token='', algod_address=cred_oracle['algo
 # Initialize coingecko API
 cg = CoinGeckoAPI()
 
-oracle_id = 77534697
 
 # ==========  get current price ==========
 price_info = cg.get_price(ids='algorand', vs_currencies='usd')
