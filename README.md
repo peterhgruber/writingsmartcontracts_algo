@@ -1,7 +1,7 @@
 # Writing Smart Contracts on Algorand (WSC)
 peter.gruber@usi.ch, 2022-03-09
 
-Writing smart contracts on Algorand is a hands-on one-semester course on blockchain applications and smart contracts. The course is aimed at students in economics and finance or adjacent fields. All examples are implemented in Python on the Algorand blockchain.
+Writing smart contracts on Algorand is a hands-on one-semester course on blockchain applications and smart contracts. The course is aimed at students in economics, finance, law or communications. All examples are implemented in Python on the Algorand blockchain.
 
 ## TLDR (executive summary)
 + Download entire repository
@@ -10,7 +10,9 @@ Writing smart contracts on Algorand is a hands-on one-semester course on blockch
 + Run Jupyter notebooks in the order of the numbers
 
 ## Philosophy
-The course is designed as an easy entrance into the world of Smart Contracts. This is done by reducing requirements and frictions as much as possible. Concretely, students have to install only one program (the Anaconda environment) on their laptops. Only one programming language, Python, is used for the entire class. Sample code is provided for all relevant concepts in easily readable Jupyter Notebooks.
+The course is designed as a **coherent** and easy entrance into the world of Smart Contracts. This is done by reducing requirements and frictions as much as possible. Concretely, students have to install only **one** program (the Anaconda environment) on their laptops. The entire class requires **only one programming language**, Python. Sample code is provided for all relevant concepts in easily readable Jupyter Notebooks. 
+
+The coherent **course structure** contributes to the learning outcome. This course aims at **systematically constructing knowledge**, rather than presenting independent topics. Two examples for this: credentials created in chapter 3 will be used throughout the course, emphasizing the importance of managing credentials well. Similarly, tokens created in chapter 4 will be later on used in smart contracts.
 
 ## Duration
 The course is aimed for teaching in approximately 24 to 30 class hours, commensurate with a 2-hour course for one semester or a 1-week intensive course. The work load is equivalent to 3ECTS.
@@ -34,7 +36,7 @@ Teaching focuses heavily on learning-by-doing. Every module consists of five ste
 Grading is based 20% on exercises during the course and 80% on projects at the end of the course.
 
 # Class Material
-**Important** some code in Juypter notebooks uses relative paths. Moving files or changing the structure of the folders inside `ClassMaterial` will break dependencies.
+**Important** almost all code in Juypter notebooks uses relative paths. Moving files or changing the structure of the folders *inside* `ClassMaterial` will break dependencies. 
 
 #### ClassMaterial
 All material aimed to be distributed to students. There are folders for every chapter which contain, where applicable, the follwoing subfolders (in the order of their use)
@@ -60,13 +62,15 @@ This folder is avaiable to university teachers upon request to `peter.gruber@usi
 
 # Deployment to Students
 Distribute the contents of the entire repository to students. 
+
 * **Do not change the folder structure.** 
 * When you have worked through the repository, **remove your `credentials` file before distributing to students.**
 
 Students will have to bring their laptops and smart phones. They will have to install the following software (see also chapter 2 – Tools):
 
 * **Anaconda** from  https://www.anaconda.com/products/individual
-	* In Anaconda, we make exclusively use of JuypterLab and Python. Installation instructions for required Python packages such as `py-algorand-sdk` and `pyteal` are included in the Jupyter notebooks.
+	* In Anaconda, we make exclusively use of JuypterLab and Python. 
+	* Installation instructions for required Python packages such as `py-algorand-sdk` and `pyteal` are included in the Jupyter notebooks.
 * **Algorand Pera Wallet**
 
 Furthermore, a (free) account for accessing the Purestake API is needed
@@ -74,7 +78,9 @@ Furthermore, a (free) account for accessing the Purestake API is needed
 * **Purestake** at https://developer.purestake.io/
 
 # Disclaimer
-All code examples are **for educational purposes only** and have **not been audited** for security risks. Some examples are explicitly designed to include security flaws so that they can be discussed in class. Do not use any of the code in real-world projects. Do not use wallets that contain significant holdings in an educational context.
+All code examples are **for educational purposes only** and have **not been audited** for security risks. 
+
+Some examples are explicitly designed to **include security flaws** so that they can be discussed in class. **Do not use any of the code in real-world projects.** Do not use wallets that contain significant holdings in an educational context.
 
 # License
 * All software code is made available under MIT license (https://choosealicense.com/licenses/mit/)
