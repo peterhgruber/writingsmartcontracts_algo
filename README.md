@@ -1,7 +1,7 @@
 # Writing Smart Contracts on Algorand (WSC)
-peter.gruber@usi.ch, 2022-03-09
+peter.gruber@usi.ch, 2024-02-18
 
-Writing smart contracts on Algorand is a hands-on one-semester course on blockchain applications and smart contracts. The course is aimed at students in economics, finance, law or communications. All examples are implemented in Python on the Algorand blockchain.
+Writing Smart Contracts on Algorand is a hands-on one-semester course on blockchain applications and smart contracts. The course is aimed at students in economics, finance, law or communications. All examples are implemented in Python on the Algorand blockchain. The course requires minimal experience with programming or the blockchain.
 
 ## TLDR (executive summary)
 + Download entire repository
@@ -15,13 +15,13 @@ The course is designed as a **coherent** and easy entrance into the world of Sma
 The coherent **course structure** contributes to the learning outcome. This course aims at **systematically constructing knowledge**, rather than presenting independent topics. Two examples for this: credentials created in chapter 3 will be used throughout the course, emphasizing the importance of managing credentials well. Similarly, tokens created in chapter 4 will be later on used in smart contracts.
 
 ## Duration
-The course is aimed for teaching in approximately 24 to 30 class hours, commensurate with a 2-hour course for one semester or a 1-week intensive course. The work load is equivalent to 3ECTS.
+The course is aimed for teaching in approximately 24 to 30 class hours, commensurate with a 2-hour course for one semester or a 1-week intensive course. The work load is equivalent to 3ECTS. The course has been taught three times at Università della Svizzera italiana in the form of a one-week winter school, see [https://www.usi.ch/wsc](https://www.usi.ch/wsc)
 
 ## Goals
-The course introduces students to the relevant theoretical concepts and provides a hands-on introduction to writing smart contracts in Python. The goal is to equip students with the necessary skills and useful background knowledge for creating smart contracts and deploying them on the Algorand blockchain.
+The course introduces students to the relevant theoretical concepts and provides a hands-on introduction to using the blockchain and writing smart contracts in Python. The goal is to equip students with the necessary skills and useful background knowledge for creating smart contracts and deploying them on the Algorand blockchain.
 
 ## Course Objectives
-After this course, students will be able to interact programmatically with the Algorand blockchain. They will know how create and manage blockchain credentials. They will know how to create their own token. They will have learnt how to write stateless and stateful smart contracts in Python as well as how to deploy and interact with them. They will have learnt how to express simple governance structures, business processes and financial assets as smart contracts. They will understand the differences between functional and contract-oriented programming and be aware of the unique security risks involved with blockchain technology.  Beyond the technical skills, they will have learnt how to plan and organize individual and group work on smart contracts.
+After this course, students will be able to interact programmatically with the Algorand blockchain. They will know how create and manage blockchain credentials. They will know how to create their own token. They will have learnt how to write stateless and stateful smart contracts in Python as well as how to deploy them and interact with them. They will have learnt how to express simple governance structures, business processes and financial assets as smart contracts. They will understand the differences between functional and contract-oriented programming and be aware of the unique security risks involved with blockchain technology.  Beyond the technical skills, they will have learnt how to plan and organize individual and group work on smart contracts.
 
 ## Methods and Course Work
 Teaching focuses heavily on learning-by-doing. Every module consists of five steps:
@@ -35,7 +35,7 @@ Teaching focuses heavily on learning-by-doing. Every module consists of five ste
 ## Grading
 Grading is based 20% on exercises during the course and 80% on projects at the end of the course.
 
-# Class Material
+# Material
 **Important** almost all code in Juypter notebooks uses relative paths. Moving files or changing the structure of the folders *inside* `ClassMaterial` will break dependencies. 
 
 #### ClassMaterial
@@ -54,7 +54,7 @@ Syllabus for the course.
 Common literature folder for all course modules.
 
 #### TeacherMaterial
-This folder is avaiable to university teachers upon request to `peter.gruber@usi.ch` (please use your university email for contacting me). It contains the following additional material
+This folder is avaiable to university teachers upon request to `peter.gruber@usi.ch` (please use your official email for contacting me). It contains the following additional material
 
 * **Solutions** to quizzes, assignments and exercises in Jupyter notebooks
 * **TeacherNotes** Additional background information
@@ -68,14 +68,14 @@ Distribute the contents of the entire repository to students.
 
 Students will have to bring their laptops and smart phones. They will have to install the following software (see also chapter 2 – Tools):
 
-* **Anaconda** from  https://www.anaconda.com/products/individual
+* **Anaconda** from  [https://www.anaconda.com/download]()
 	* In Anaconda, we make exclusively use of JuypterLab and Python. 
 	* Installation instructions for required Python packages such as `py-algorand-sdk` and `pyteal` are included in the Jupyter notebooks.
 * **Algorand Pera Wallet**
 
-Furthermore, a (free) account for accessing the Purestake API is needed
+Furthermore, a the (free) Algonode API wil be used
 
-* **Purestake** at https://developer.purestake.io/
+* **Algonode** at [https://algonode.io/]()
 
 # Disclaimer
 All code examples are **for educational purposes only** and have **not been audited** for security risks. 

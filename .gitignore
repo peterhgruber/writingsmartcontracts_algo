@@ -6,7 +6,7 @@ credentials
 credentials*
 
 ## Solutions
-*solution*
+*_solution*
 
 ## Python caches
 __pycache__
@@ -30,6 +30,8 @@ __pycache__
 *.JPG
 *.pptx
 *.ppt
+*.psd
+*.indd
 !ClassMaterial/05\ -\ NFTs/05\ code/*.jpg #Except for.jpg in NFT code
 !paris.jpg
 
